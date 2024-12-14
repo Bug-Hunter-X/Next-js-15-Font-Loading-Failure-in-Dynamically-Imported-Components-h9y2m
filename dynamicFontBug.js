@@ -1,0 +1,1 @@
+In Next.js 15, an uncommon issue arises when using the `next/font` API with dynamically imported components.  If a component importing a font is dynamically imported, the font might not load correctly, leading to missing or incorrect styles. This is particularly true if the dynamic import happens after the initial hydration.
